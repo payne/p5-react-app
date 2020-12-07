@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <>
-          <P5Wrapper sketch={sketch} />
+          {/* <P5Wrapper sketch={sketch} /> */}
           <P5Wrapper sketch={golsketch} />
 
         </>
