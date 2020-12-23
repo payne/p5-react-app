@@ -111,7 +111,7 @@ function golsketch(p) {
    
 
     p.setup = function () {
-        p.createCanvas(720, 400);
+        p.createCanvas(1500, 400);
         w = 20;
         // Calculate columns and rows
         columns = p.floor(p.width / w);

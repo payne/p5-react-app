@@ -2,7 +2,7 @@ function sketch(p) {
     let rotation = 0;
 
     p.setup = function () {
-        p.createCanvas(500, 500);
+        p.createCanvas(1500, 400);
     };
 
     p.draw = function () {
@@ -11,7 +11,7 @@ function sketch(p) {
         } else {
             p.fill(255);
         }
-        p.ellipse(p.mouseX, p.mouseY, 80, 80);
+        p.ellipse(p.mouseX, p.mouseY, 100, 100);
     };
 };
 
